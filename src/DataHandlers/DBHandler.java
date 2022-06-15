@@ -84,7 +84,7 @@ public class DBHandler {
     }
 
     /**
-     * a list of all current existing pomodoro is needed for the calculation of the progressbar
+     * a list of all current existing pomodoro is needed for the observing
      * @return a list of all the pomodoro
      */
     public static ArrayList<Pomodoro> getPomodoro(){

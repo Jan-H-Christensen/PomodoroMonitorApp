@@ -16,7 +16,7 @@ public class Employee {
     private String email;
     private int phone;
     private String address;
-    private IntegerProperty status = new SimpleIntegerProperty();
+    private int status;
     private String department;
 
 
@@ -26,7 +26,7 @@ public class Employee {
         this.email = email;
         this.phone = phone;
         this.address = address;
-        this.status.set(status);
+        this.status = status;
         this.department = department;
     }
 
@@ -51,12 +51,9 @@ public class Employee {
     }
 
     public int getStatus() {
-        return status.get();
-    }
-
-    public IntegerProperty statusProperty() {
         return status;
     }
+
 
     public String getDepartment() {
         return department;
