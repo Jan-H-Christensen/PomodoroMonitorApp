@@ -1,0 +1,51 @@
+.root {
+    -fx-accent: #1e74c6;
+    -fx-focus-color: -fx-accent;
+    -fx-base: white;
+    -fx-control-inner-background: derive(-fx-base, 35%);
+    -fx-control-inner-background-alt: -fx-control-inner-background ;
+}
+
+#headline{
+    -fx-background-color: #000080;
+    -fx-text-fill: white;
+    -fx-font-family: "Lucida Handwriting";
+    -fx-font-size: 36;
+}
+
+#user{
+    -fx-text-fill: #000000;
+    -fx-background-color: #03fc2c;
+}
+
+#progressLabel{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #a30505;
+}
+
+#breakLabel{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #2c05a3;
+}
+
+#department{
+    -fx-background-color: #000080;
+    -fx-border-color: #ffffff;
+    -fx-prompt-text-fill: #ffffff;
+}
+
+#department .cell{
+    -fx-background-color: #000080;
+    -fx-text-fill:  #ffffff;
+}
+
+#departmentLabel{
+    -fx-text-fill: white;
+    -fx-font-family: "Lucida Handwriting";
+    -fx-font-size: 16;
+}
+
+#notWorkingLabel{
+    -fx-background-color: #03573b;
+    -fx-text-fill:  #ffffff;
+}
